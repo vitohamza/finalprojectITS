@@ -6,8 +6,7 @@ The optimal power flow is taken using metaheuristic AI method called differentia
 Run the main program via InputbattDE. **Core files** are: 
 1. ESInv (function for solving energy storage sizing)
 2. DCOPF_SOLVER (function for solving the DC OPF)
-3. rundcopf 
-4. mpoption
+3. case30gridmaswince (this is the IEEE 30 Bus modified for microgrid environment. Credits to Mas Wince)
 
 **Source code flow**
 rundcopf --> dcopf_solver --> opf_execute --> opf --> runopf --> rundcopf 
